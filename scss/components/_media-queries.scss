@@ -1,10 +1,10 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (min-width: $media-breakpoint) {
 
 .container {
-  max-width: 1400px;
+  max-width: $max-width;
   display: block;
   margin-left: auto;
   margin-right: auto;
