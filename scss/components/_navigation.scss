@@ -5,8 +5,8 @@
 .nav {
   padding-left: 0;
   flex-basis: 100%;
-  display: flex;
-  flex-direction: column;
+  @include flexy($disp:flex,
+                 $direc:column);
   &-link{
     text-align: center;
     border-radius: 5px;

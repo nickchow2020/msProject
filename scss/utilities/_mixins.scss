@@ -6,3 +6,20 @@
    @content;
   }
 }
+
+
+/* ==================================== */
+/* flexy style===========================/
+/* ==================================== */
+@mixin flexy($disp:null,
+             $direc:null,
+             $fwrap:null,
+             $just:null,
+             $align:null){
+    display: $disp;
+    flex-direction: $direc;
+    flex-wrap: $fwrap;
+    justify-content: $just;
+    align-items: $align;
+    @content;
+}
