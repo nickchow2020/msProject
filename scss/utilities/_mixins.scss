@@ -23,3 +23,14 @@
     align-items: $align;
     @content;
 }
+
+/* ==================================== */
+/* theme color mixin===========================/
+/* ==================================== */
+@mixin theme($maps){
+  @each $theme,$color in $maps{
+    .theme.#{$theme}{
+      background-color: $color;
+    }
+  }
+}
